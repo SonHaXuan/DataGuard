@@ -1,0 +1,20 @@
+{
+  "provider": "bedrock",
+  "model_requested": "us.amazon.nova-pro-v1:0",
+  "base_url": "",
+  "dataset": "data/probe_shuffle.csv",
+  "n_apps": 292,
+  "repeats": 1,
+  "temperature": 0.0,
+  "max_tokens": 96,
+  "json_mode": false,
+  "started_utc": "2026-09-26T16:58:34.514432+00:00",
+  "system_prompt": "You are an expert in labeling the content comparison of the Data Safety declaration and the Privacy Policy for an Android application.",
+  "user_template": "Compare and analyse the information between the Data Safety declaration and the Privacy Policy of an Android app, and decide two things: whether the disclosure is incorrect, and whether it is incomplete.\n\nDefinitions:\n- incorrect = 1 when the Data Safety declaration does not disclose a data practice that the Privacy Policy does mention.\n- incomplete = 1 when the Data Safety declaration discloses a data practice, but the Privacy Policy does not describe it as fully as the Data Safety declaration does.\n- Use 0 when the condition does not hold.\n\nAnswer with JSON only, no explanation, exactly in this form:\n{{\"incorrect\": 0 or 1, \"incomplete\": 0 or 1}}\n\nData Safety:\n{data_safety}\n\nPrivacy Policy:\n{privacy_policy}",
+  "finished_utc": "2026-09-26T17:04:39.621527+00:00",
+  "elapsed_s": 365.1,
+  "n_calls": 292,
+  "n_parsed": 292,
+  "n_unparsed": 0,
+  "n_api_errors": 0
+}

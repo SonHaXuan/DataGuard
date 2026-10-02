@@ -1,0 +1,67 @@
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 33s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 67s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 101s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 136s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 168s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 201s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 233s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 264s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 434s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 465s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 496s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 527s
+
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_base_20260926T163721Z.jsonl
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_base_20260926T163721Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 31s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 61s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 92s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 124s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 154s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 185s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 217s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 248s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 279s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 310s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 340s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 372s
+
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_null_20260926T164608Z.jsonl
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_null_20260926T164608Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 31s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 62s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 95s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 127s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 157s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 188s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 220s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 251s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 282s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 313s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 344s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 374s
+
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_inject_20260926T165220Z.jsonl
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_inject_20260926T165220Z.meta.json
+  25/292 apps | parsed 25 | unparsed 0 | errors 0 | 30s
+  50/292 apps | parsed 50 | unparsed 0 | errors 0 | 61s
+  75/292 apps | parsed 75 | unparsed 0 | errors 0 | 91s
+  100/292 apps | parsed 100 | unparsed 0 | errors 0 | 123s
+  125/292 apps | parsed 125 | unparsed 0 | errors 0 | 155s
+  150/292 apps | parsed 150 | unparsed 0 | errors 0 | 187s
+  175/292 apps | parsed 175 | unparsed 0 | errors 0 | 218s
+  200/292 apps | parsed 200 | unparsed 0 | errors 0 | 250s
+  225/292 apps | parsed 225 | unparsed 0 | errors 0 | 280s
+  250/292 apps | parsed 250 | unparsed 0 | errors 0 | 312s
+  275/292 apps | parsed 275 | unparsed 0 | errors 0 | 343s
+  292/292 apps | parsed 292 | unparsed 0 | errors 0 | 365s
+
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_shuffle_20260926T165834Z.jsonl
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_shuffle_20260926T165834Z.meta.json
+  25/100 apps | parsed 75 | unparsed 0 | errors 0 | 91s
+  50/100 apps | parsed 150 | unparsed 0 | errors 0 | 187s
+  75/100 apps | parsed 225 | unparsed 0 | errors 0 | 278s
+  100/100 apps | parsed 300 | unparsed 0 | errors 0 | 369s
+
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_rep_20260926T170439Z.jsonl
+Wrote runs/bedrock_us.amazon.nova-pro-v1_0_rep_20260926T170439Z.meta.json

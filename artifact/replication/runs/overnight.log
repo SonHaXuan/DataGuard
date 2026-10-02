@@ -1,0 +1,51 @@
+=== bắt đầu canh: Sat Sep 26 23:41:17 +07 2026 ===
+  còn đang chạy... 5 phút
+  còn đang chạy... 10 phút
+  còn đang chạy... 15 phút
+  còn đang chạy... 20 phút
+  còn đang chạy... 25 phút
+  còn đang chạy... 30 phút
+  còn đang chạy... 35 phút
+=== mọi run đã dừng: Sun Sep 27 00:18:22 +07 2026 ===
+=== 1. Regenerating analysis tables ===
+    ran 01_reconstruct_confusion.py
+    ran 02_error_analysis.py
+    ran 03_annotator_reliability.py
+    ran 04_qualitative_examples.py
+    ran 05_corpus_prevalence.py
+    ran 06_verify_label_semantics.py
+    ran 07_discrepancy_taxonomy.py
+    copied analysis tables into manuscript/tables/
+
+=== 2. Building result tables from model runs ===
+Models found:
+  us.amazon.nova-pro-v1:0: base, inject, null, rep, shuffle
+  us.anthropic.claude-sonnet-5: base, inject, null
+  us.meta.llama3-3-70b-instruct-v1:0: base, inject, null
+  qwen2.5:1.5b: base, inject, null, rep, shuffle
+  qwen3:4b: base, inject, null, rep, shuffle
+Wrote /Users/v120674/Documents/RMIT/SonHa/Journal/NghiemProject/DATAGUARD/IJIS/Revise/manuscript/tables/table_current_models.tex
+Wrote /Users/v120674/Documents/RMIT/SonHa/Journal/NghiemProject/DATAGUARD/IJIS/Revise/manuscript/tables/table_hallucination.tex
+Wrote runs/summary.json
+
+=== 3. Regenerating the change-marked manuscript ===
+Wrote sn-article-diff.tex
+  blocks added   : 41
+  blocks removed : 41
+  replace regions: 10
+Wrote CHANGES.md
+
+=== 4. Rebuilding the response letter ===
+Wrote /Users/v120674/Documents/RMIT/SonHa/Journal/NghiemProject/DATAGUARD/IJIS/Revise/response/Response_to_Reviewers.docx  (23.0 KB)
+
+=== 5. Verifying ===
+    labels 63 | refs 47 | cites 74
+    all checks passed
+
+=== Done ===
+Deliverables:
+  manuscript/sn-article.tex
+  manuscript/sn-article-diff.tex   (+ CHANGES.md)
+  response/Response_to_Reviewers.docx
+=== finalize xong: Sun Sep 27 00:18:26 +07 2026 ===
+=== đã bỏ chặn sleep, máy có thể ngủ ===

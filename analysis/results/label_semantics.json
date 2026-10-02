@@ -1,0 +1,99 @@
+{
+  "structural_test": {
+    "sharing/correctness": {
+      "Incorrect": {
+        "n": 547,
+        "empty_data_safety_share": 0.331,
+        "mean_declared_types": 3.86
+      },
+      "Correct": {
+        "n": 779,
+        "empty_data_safety_share": 0.241,
+        "mean_declared_types": 4.39
+      }
+    },
+    "sharing/completeness": {
+      "Incomplete": {
+        "n": 476,
+        "empty_data_safety_share": 0.212,
+        "mean_declared_types": 4.73
+      },
+      "Complete": {
+        "n": 719,
+        "empty_data_safety_share": 0.289,
+        "mean_declared_types": 4.27
+      }
+    },
+    "collection/correctness": {
+      "Incorrect": {
+        "n": 595,
+        "empty_data_safety_share": 0.39,
+        "mean_declared_types": 3.41
+      },
+      "Correct": {
+        "n": 851,
+        "empty_data_safety_share": 0.188,
+        "mean_declared_types": 5.04
+      }
+    },
+    "collection/completeness": {
+      "Incomplete": {
+        "n": 591,
+        "empty_data_safety_share": 0.281,
+        "mean_declared_types": 3.48
+      },
+      "Complete": {
+        "n": 734,
+        "empty_data_safety_share": 0.232,
+        "mean_declared_types": 5.42
+      }
+    },
+    "_empty_ds_share_delta": {
+      "Incorrect_minus_Correct": 0.146,
+      "Incomplete_minus_Complete": -0.014
+    }
+  },
+  "rationale_test": {
+    "Incorrect": {
+      "n": 1089,
+      "accuses_policy": 0.245,
+      "accuses_data_safety": 0.173
+    },
+    "Correct": {
+      "n": 1461,
+      "accuses_policy": 0.018,
+      "accuses_data_safety": 0.181
+    },
+    "Incomplete": {
+      "n": 931,
+      "accuses_policy": 0.289,
+      "accuses_data_safety": 0.339
+    },
+    "Complete": {
+      "n": 1342,
+      "accuses_policy": 0.073,
+      "accuses_data_safety": 0.157
+    }
+  },
+  "direction_test": {
+    "Incorrect": {
+      "per_axis_delta": {
+        "sharing/correctness": 0.09,
+        "collection/correctness": 0.202
+      },
+      "resolution": "data-safety-under-declares"
+    },
+    "Incomplete": {
+      "per_axis_delta": {
+        "sharing/completeness": -0.077,
+        "collection/completeness": 0.049
+      },
+      "resolution": "inconclusive"
+    },
+    "decision_rule": "|delta| >= 0.05 with a consistent sign on both audit axes"
+  },
+  "operational_definition": {
+    "Incorrect": "the privacy policy mentions a data practice that the Data Safety section does not declare",
+    "Incomplete": "UNRESOLVED in the corpus; see the reliability analysis"
+  }
+}

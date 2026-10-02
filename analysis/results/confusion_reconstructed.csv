@@ -1,0 +1,17 @@
+case,configuration,training_set,label_source,n_train,category,P,R,F1,A,TP,FP,FN,TN,total,errors,support_positive,support_negative,predicted_positive,flag_ratio,specificity,balanced_accuracy,reconstruction_residual
+Case 01,"Zero-shot, GPT-3.5",none,n/a,0,Incorrect,0.942,0.825,0.879,0.793,113,7,24,6,150,31,137,13,120,0.876,0.462,0.643,0.499
+Case 01,"Zero-shot, GPT-3.5",none,n/a,0,Incomplete,0.828,0.595,0.692,0.573,72,15,49,14,150,64,121,29,87,0.719,0.483,0.539,0.146
+Case 02,"Fine-tuned, manual labels",150 apps,human experts,150,Incorrect,0.951,0.993,0.971,0.947,136,7,1,6,150,8,137,13,143,1.044,0.462,0.727,0.324
+Case 02,"Fine-tuned, manual labels",150 apps,human experts,150,Incomplete,0.844,0.983,0.908,0.84,119,22,2,7,150,24,121,29,141,1.165,0.241,0.612,0.263
+Case 03,"Fine-tuned, GPT-4 labels",150 apps,GPT-4,150,Incorrect,0.981,0.759,0.856,0.767,104,2,33,11,150,35,137,13,106,0.774,0.846,0.803,0.307
+Case 03,"Fine-tuned, GPT-4 labels",150 apps,GPT-4,150,Incomplete,0.849,0.975,0.908,0.84,118,21,3,8,150,24,121,29,139,1.149,0.276,0.626,0.062
+Case 04,"Fine-tuned, GPT-4o labels",150 apps,GPT-4o,150,Incorrect,0.919,1.0,0.958,0.92,136,12,0,2,150,12,136,14,148,1.088,0.143,0.571,0.148
+Case 04,"Fine-tuned, GPT-4o labels",150 apps,GPT-4o,150,Incomplete,0.807,1.0,0.883,0.807,121,29,0,0,150,29,121,29,150,1.24,0.0,0.5,0.05
+Case 05,"Fine-tuned, Gemini 1.5 labels",150 apps,Gemini 1.5,150,Incorrect,0.938,1.0,0.98,0.94,136,9,0,5,150,9,136,14,145,1.066,0.357,0.679,0.161
+Case 05,"Fine-tuned, Gemini 1.5 labels",150 apps,Gemini 1.5,150,Incomplete,0.834,1.0,0.91,0.84,121,24,0,5,150,24,121,29,145,1.198,0.172,0.586,0.422
+Case 06,"Fine-tuned, GPT-4 labels",450 apps,GPT-4,450,Incorrect,0.971,0.73,0.833,0.733,100,3,37,10,150,40,137,13,103,0.752,0.769,0.75,0.243
+Case 06,"Fine-tuned, GPT-4 labels",450 apps,GPT-4,450,Incomplete,0.877,0.942,0.908,0.847,114,16,7,13,150,23,121,29,130,1.074,0.448,0.695,0.336
+Case 07,"Fine-tuned, GPT-4o labels",450 apps,GPT-4o,450,Incorrect,0.932,1.0,0.965,0.933,138,10,0,2,150,10,138,12,148,1.072,0.167,0.583,0.256
+Case 07,"Fine-tuned, GPT-4o labels",450 apps,GPT-4o,450,Incomplete,0.857,0.992,0.92,0.86,120,20,1,9,150,21,121,29,140,1.157,0.31,0.651,0.051
+Case 08,"Fine-tuned, Gemini 1.5 labels",450 apps,Gemini 1.5,450,Incorrect,0.945,1.0,0.972,0.947,137,8,0,5,150,8,137,13,145,1.058,0.385,0.692,0.455
+Case 08,"Fine-tuned, Gemini 1.5 labels",450 apps,Gemini 1.5,450,Incomplete,0.851,0.992,0.916,0.853,120,21,1,8,150,22,121,29,141,1.165,0.276,0.634,0.441

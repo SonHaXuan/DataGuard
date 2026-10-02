@@ -1,0 +1,232 @@
+{
+  "us.amazon.nova-pro-v1:0": {
+    "targets": {
+      "incorrect": {
+        "n": 300,
+        "TP": 141,
+        "FP": 103,
+        "FN": 21,
+        "TN": 35,
+        "P": 0.5779,
+        "R": 0.8704,
+        "F1": 0.6946,
+        "A": 0.5867,
+        "spec": 0.2536,
+        "bal": 0.562,
+        "MCC": 0.1586,
+        "prev": 0.54,
+        "baseline": 0.54,
+        "dA": 0.0467
+      },
+      "incomplete": {
+        "n": 300,
+        "TP": 167,
+        "FP": 115,
+        "FN": 6,
+        "TN": 12,
+        "P": 0.5922,
+        "R": 0.9653,
+        "F1": 0.7341,
+        "A": 0.5967,
+        "spec": 0.0945,
+        "bal": 0.5299,
+        "MCC": 0.1244,
+        "prev": 0.5767,
+        "baseline": 0.5767,
+        "dA": 0.02
+      }
+    },
+    "tags_present": [
+      "base",
+      "inject",
+      "null",
+      "rep",
+      "shuffle"
+    ],
+    "failure_modes": {}
+  },
+  "us.anthropic.claude-sonnet-5": {
+    "targets": {
+      "incorrect": {
+        "n": 295,
+        "TP": 105,
+        "FP": 58,
+        "FN": 55,
+        "TN": 77,
+        "P": 0.6442,
+        "R": 0.6562,
+        "F1": 0.6502,
+        "A": 0.6169,
+        "spec": 0.5704,
+        "bal": 0.6133,
+        "MCC": 0.2271,
+        "prev": 0.5424,
+        "baseline": 0.5424,
+        "dA": 0.0746
+      },
+      "incomplete": {
+        "n": 295,
+        "TP": 114,
+        "FP": 82,
+        "FN": 56,
+        "TN": 43,
+        "P": 0.5816,
+        "R": 0.6706,
+        "F1": 0.623,
+        "A": 0.5322,
+        "spec": 0.344,
+        "bal": 0.5073,
+        "MCC": 0.0153,
+        "prev": 0.5763,
+        "baseline": 0.5763,
+        "dA": -0.0441
+      }
+    },
+    "tags_present": [
+      "base",
+      "inject",
+      "null"
+    ],
+    "failure_modes": {
+      "empty_response": 5
+    }
+  },
+  "us.meta.llama3-3-70b-instruct-v1:0": {
+    "targets": {
+      "incorrect": {
+        "n": 300,
+        "TP": 153,
+        "FP": 120,
+        "FN": 9,
+        "TN": 18,
+        "P": 0.5604,
+        "R": 0.9444,
+        "F1": 0.7034,
+        "A": 0.57,
+        "spec": 0.1304,
+        "bal": 0.5374,
+        "MCC": 0.1304,
+        "prev": 0.54,
+        "baseline": 0.54,
+        "dA": 0.03
+      },
+      "incomplete": {
+        "n": 300,
+        "TP": 18,
+        "FP": 27,
+        "FN": 155,
+        "TN": 100,
+        "P": 0.4,
+        "R": 0.104,
+        "F1": 0.1651,
+        "A": 0.3933,
+        "spec": 0.7874,
+        "bal": 0.4457,
+        "MCC": -0.1502,
+        "prev": 0.5767,
+        "baseline": 0.5767,
+        "dA": -0.1833
+      }
+    },
+    "tags_present": [
+      "base",
+      "inject",
+      "null"
+    ],
+    "failure_modes": {}
+  },
+  "qwen2.5:1.5b": {
+    "targets": {
+      "incorrect": {
+        "n": 300,
+        "TP": 9,
+        "FP": 10,
+        "FN": 153,
+        "TN": 128,
+        "P": 0.4737,
+        "R": 0.0556,
+        "F1": 0.0994,
+        "A": 0.4567,
+        "spec": 0.9275,
+        "bal": 0.4915,
+        "MCC": -0.0346,
+        "prev": 0.54,
+        "baseline": 0.54,
+        "dA": -0.0833
+      },
+      "incomplete": {
+        "n": 300,
+        "TP": 148,
+        "FP": 104,
+        "FN": 25,
+        "TN": 23,
+        "P": 0.5873,
+        "R": 0.8555,
+        "F1": 0.6965,
+        "A": 0.57,
+        "spec": 0.1811,
+        "bal": 0.5183,
+        "MCC": 0.0493,
+        "prev": 0.5767,
+        "baseline": 0.5767,
+        "dA": -0.0067
+      }
+    },
+    "tags_present": [
+      "base",
+      "inject",
+      "null",
+      "rep",
+      "shuffle"
+    ],
+    "failure_modes": {}
+  },
+  "qwen3:4b": {
+    "targets": {
+      "incorrect": {
+        "n": 299,
+        "TP": 0,
+        "FP": 0,
+        "FN": 161,
+        "TN": 138,
+        "P": null,
+        "R": 0.0,
+        "F1": null,
+        "A": 0.4615,
+        "spec": 1.0,
+        "bal": 0.5,
+        "MCC": null,
+        "prev": 0.5385,
+        "baseline": 0.5385,
+        "dA": -0.0769
+      },
+      "incomplete": {
+        "n": 299,
+        "TP": 137,
+        "FP": 88,
+        "FN": 35,
+        "TN": 39,
+        "P": 0.6089,
+        "R": 0.7965,
+        "F1": 0.6902,
+        "A": 0.5886,
+        "spec": 0.3071,
+        "bal": 0.5518,
+        "MCC": 0.1187,
+        "prev": 0.5753,
+        "baseline": 0.5753,
+        "dA": 0.0134
+      }
+    },
+    "tags_present": [
+      "base",
+      "inject",
+      "null",
+      "rep",
+      "shuffle"
+    ],
+    "failure_modes": {
+      "unparseable": 1
+    }
+  }
+}

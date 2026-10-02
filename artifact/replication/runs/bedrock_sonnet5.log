@@ -1,0 +1,45 @@
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 65s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 131s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 195s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 258s
+  125/300 apps | parsed 124 | unparsed 1 | errors 0 | 469s
+  150/300 apps | parsed 149 | unparsed 1 | errors 0 | 533s
+  175/300 apps | parsed 173 | unparsed 2 | errors 0 | 599s
+  200/300 apps | parsed 198 | unparsed 2 | errors 0 | 660s
+  225/300 apps | parsed 223 | unparsed 2 | errors 0 | 724s
+  250/300 apps | parsed 246 | unparsed 4 | errors 0 | 791s
+  275/300 apps | parsed 270 | unparsed 5 | errors 0 | 857s
+  300/300 apps | parsed 295 | unparsed 5 | errors 0 | 921s
+
+Wrote runs/bedrock_us.anthropic.claude-sonnet-5_base_20260926T163721Z.jsonl
+Wrote runs/bedrock_us.anthropic.claude-sonnet-5_base_20260926T163721Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 66s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 129s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 190s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 253s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 314s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 378s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 441s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 504s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 566s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 631s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 693s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 754s
+
+Wrote runs/bedrock_us.anthropic.claude-sonnet-5_null_20260926T165242Z.jsonl
+Wrote runs/bedrock_us.anthropic.claude-sonnet-5_null_20260926T165242Z.meta.json
+  25/300 apps | parsed 24 | unparsed 1 | errors 0 | 62s
+  50/300 apps | parsed 48 | unparsed 2 | errors 0 | 133s
+  75/300 apps | parsed 71 | unparsed 4 | errors 0 | 196s
+  100/300 apps | parsed 96 | unparsed 4 | errors 0 | 259s
+  125/300 apps | parsed 119 | unparsed 6 | errors 0 | 325s
+  150/300 apps | parsed 143 | unparsed 7 | errors 0 | 387s
+  175/300 apps | parsed 168 | unparsed 7 | errors 0 | 451s
+  200/300 apps | parsed 189 | unparsed 11 | errors 0 | 518s
+  225/300 apps | parsed 212 | unparsed 13 | errors 0 | 583s
+  250/300 apps | parsed 236 | unparsed 14 | errors 0 | 648s
+  275/300 apps | parsed 259 | unparsed 16 | errors 0 | 716s
+  300/300 apps | parsed 284 | unparsed 16 | errors 0 | 779s
+
+Wrote runs/bedrock_us.anthropic.claude-sonnet-5_inject_20260926T170516Z.jsonl
+Wrote runs/bedrock_us.anthropic.claude-sonnet-5_inject_20260926T170516Z.meta.json

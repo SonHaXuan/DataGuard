@@ -1,0 +1,139 @@
+{
+  "source": "/Users/v120674/Documents/RMIT/SonHa/Journal/NghiemProject/DATAGUARD/data-in-brief-submission/data_package/data/audit_judgments.csv",
+  "n_judgment_rows": 1506,
+  "n_unique_apps": 1214,
+  "n_annotators": 7,
+  "judgments_per_app": {
+    "1": 925,
+    "2": 286,
+    "3": 3
+  },
+  "dimensions": {
+    "label_one_s": {
+      "axis": "Sharing",
+      "judgment_type": "Correctness",
+      "defect_label": "Incorrect",
+      "n_pairs": 246,
+      "raw_agreement": 0.565,
+      "cohen_kappa": 0.141,
+      "pabak": 0.13,
+      "defect_rate": 0.465
+    },
+    "label_two_s": {
+      "axis": "Sharing",
+      "judgment_type": "Completeness",
+      "defect_label": "Incomplete",
+      "n_pairs": 188,
+      "raw_agreement": 0.521,
+      "cohen_kappa": -0.066,
+      "pabak": 0.043,
+      "defect_rate": 0.34
+    },
+    "label_one_c": {
+      "axis": "Collection",
+      "judgment_type": "Correctness",
+      "defect_label": "Incorrect",
+      "n_pairs": 273,
+      "raw_agreement": 0.56,
+      "cohen_kappa": 0.107,
+      "pabak": 0.121,
+      "defect_rate": 0.418
+    },
+    "label_two_c": {
+      "axis": "Collection",
+      "judgment_type": "Completeness",
+      "defect_label": "Incomplete",
+      "n_pairs": 235,
+      "raw_agreement": 0.613,
+      "cohen_kappa": 0.156,
+      "pabak": 0.226,
+      "defect_rate": 0.355
+    }
+  },
+  "per_annotator": {
+    "A01": {
+      "role": "PhD",
+      "n_rows": 172,
+      "defect_rates": {
+        "label_one_s": 0.361,
+        "label_two_s": 0.551,
+        "label_one_c": 0.466,
+        "label_two_c": 0.77
+      }
+    },
+    "A02": {
+      "role": "Student",
+      "n_rows": 63,
+      "defect_rates": {
+        "label_one_s": 0.143,
+        "label_two_s": 0.175,
+        "label_one_c": 0.238,
+        "label_two_c": 0.163
+      }
+    },
+    "A03": {
+      "role": "Student",
+      "n_rows": 45,
+      "defect_rates": {
+        "label_one_s": 0.349,
+        "label_two_s": 1.0,
+        "label_one_c": 0.444,
+        "label_two_c": 1.0
+      }
+    },
+    "A04": {
+      "role": "Student",
+      "n_rows": 143,
+      "defect_rates": {
+        "label_one_s": 0.329,
+        "label_two_s": 0.594,
+        "label_one_c": 0.315,
+        "label_two_c": 0.801
+      }
+    },
+    "A05": {
+      "role": "Student",
+      "n_rows": 593,
+      "defect_rates": {
+        "label_one_s": 0.388,
+        "label_two_s": 0.41,
+        "label_one_c": 0.324,
+        "label_two_c": 0.52
+      }
+    },
+    "A06": {
+      "role": "Student",
+      "n_rows": 427,
+      "defect_rates": {
+        "label_one_s": 0.641,
+        "label_two_s": 0.298,
+        "label_one_c": 0.621,
+        "label_two_c": 0.142
+      }
+    },
+    "A07": {
+      "role": "Student",
+      "n_rows": 63,
+      "defect_rates": {
+        "label_one_s": 0.033,
+        "label_two_s": 1.0,
+        "label_one_c": 0.115,
+        "label_two_c": 1.0
+      }
+    }
+  },
+  "summary": {
+    "raw_agreement_min": 0.521,
+    "raw_agreement_max": 0.613,
+    "kappa_min": -0.066,
+    "kappa_max": 0.156
+  },
+  "per_annotator_defect_rate_spread": {
+    "label_one_s": 0.608,
+    "label_two_s": 0.825,
+    "label_one_c": 0.506,
+    "label_two_c": 0.858
+  },
+  "n_conflicting_app_dimension_pairs": 403,
+  "n_apps_with_any_conflict": 222
+}

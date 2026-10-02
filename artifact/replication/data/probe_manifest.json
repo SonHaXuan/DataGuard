@@ -1,0 +1,23 @@
+{
+  "generator": "artifact/replication/make_probes.py",
+  "seed": 20260926,
+  "source": "/Users/v120674/Documents/RMIT/SonHa/Journal/NghiemProject/DATAGUARD/IJIS/Revise/artifact/replication/data/eval_set_natural.csv",
+  "null": {
+    "n": 300,
+    "reference": "y_incorrect = 0 by construction",
+    "interpretation": "a prediction of 1 asserts policy content that is absent",
+    "placeholder_text": "Notice. This page is a placeholder. The document that normally appears here is not available at this address. No statement about data handling, data collection, data sharing, tracking, storage, retention, disclosure or user rights is made on this page. Please check back later."
+  },
+  "inject": {
+    "n": 300,
+    "skipped": 0,
+    "reference": "y_incorrect = 1 by construction",
+    "interpretation": "a prediction of 0 ignores an explicit statement in the input",
+    "sentence_template": "We also disclose your {phrase} to third-party advertising and analytics partners for the purpose of audience measurement and targeted advertising."
+  },
+  "shuffle": {
+    "n": 292,
+    "reference": "labels unchanged from the unperturbed set",
+    "interpretation": "a label flip is instability, not reasoning"
+  }
+}

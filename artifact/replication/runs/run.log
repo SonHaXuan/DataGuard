@@ -1,0 +1,138 @@
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 53s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 108s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 157s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 209s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 261s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 318s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 373s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 415s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 473s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 530s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 589s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 645s
+
+Wrote runs/ollama_qwen2.5_1.5b_base_20260926T151445Z.jsonl
+Wrote runs/ollama_qwen2.5_1.5b_base_20260926T151445Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 31s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 69s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 105s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 149s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 189s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 236s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 280s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 320s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 367s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 410s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 459s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 496s
+
+Wrote runs/ollama_qwen2.5_1.5b_null_20260926T152531Z.jsonl
+Wrote runs/ollama_qwen2.5_1.5b_null_20260926T152531Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 50s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 106s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 174s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 229s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 280s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 336s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 392s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 436s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 491s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 545s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 608s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 662s
+
+Wrote runs/ollama_qwen2.5_1.5b_inject_20260926T153348Z.jsonl
+Wrote runs/ollama_qwen2.5_1.5b_inject_20260926T153348Z.meta.json
+  25/292 apps | parsed 25 | unparsed 0 | errors 0 | 60s
+  50/292 apps | parsed 50 | unparsed 0 | errors 0 | 118s
+  75/292 apps | parsed 75 | unparsed 0 | errors 0 | 166s
+  100/292 apps | parsed 100 | unparsed 0 | errors 0 | 219s
+  25/292 apps | parsed 25 | unparsed 0 | errors 0 | 25s
+  50/292 apps | parsed 50 | unparsed 0 | errors 0 | 48s
+  75/292 apps | parsed 75 | unparsed 0 | errors 0 | 68s
+  100/292 apps | parsed 100 | unparsed 0 | errors 0 | 90s
+  125/292 apps | parsed 125 | unparsed 0 | errors 0 | 110s
+  150/292 apps | parsed 150 | unparsed 0 | errors 0 | 132s
+  175/292 apps | parsed 175 | unparsed 0 | errors 0 | 156s
+  200/292 apps | parsed 200 | unparsed 0 | errors 0 | 176s
+  225/292 apps | parsed 225 | unparsed 0 | errors 0 | 193s
+  250/292 apps | parsed 250 | unparsed 0 | errors 0 | 218s
+  275/292 apps | parsed 275 | unparsed 0 | errors 0 | 241s
+  292/292 apps | parsed 292 | unparsed 0 | errors 0 | 257s
+
+Wrote runs/ollama_qwen2.5_1.5b_shuffle_20260926T160553Z.jsonl
+Wrote runs/ollama_qwen2.5_1.5b_shuffle_20260926T160553Z.meta.json
+  25/100 apps | parsed 75 | unparsed 0 | errors 0 | 55s
+  50/100 apps | parsed 150 | unparsed 0 | errors 0 | 103s
+  75/100 apps | parsed 225 | unparsed 0 | errors 0 | 140s
+  100/100 apps | parsed 300 | unparsed 0 | errors 0 | 191s
+
+Wrote runs/ollama_qwen2.5_1.5b_rep_20260926T161011Z.jsonl
+Wrote runs/ollama_qwen2.5_1.5b_rep_20260926T161011Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 56s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 119s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 177s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 236s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 295s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 358s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 424s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 475s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 534s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 597s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 667s
+  300/300 apps | parsed 299 | unparsed 1 | errors 0 | 726s
+
+Wrote runs/ollama_qwen3_4b_base_20260926T161327Z.jsonl
+Wrote runs/ollama_qwen3_4b_base_20260926T161327Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 40s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 89s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 142s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 195s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 239s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 291s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 341s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 378s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 424s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 475s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 530s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 575s
+
+Wrote runs/ollama_qwen3_4b_null_20260926T162533Z.jsonl
+Wrote runs/ollama_qwen3_4b_null_20260926T162533Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 59s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 123s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 183s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 244s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 304s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 371s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 438s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 489s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 549s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 614s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 685s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 743s
+
+Wrote runs/ollama_qwen3_4b_inject_20260926T163508Z.jsonl
+Wrote runs/ollama_qwen3_4b_inject_20260926T163508Z.meta.json
+  25/292 apps | parsed 25 | unparsed 0 | errors 0 | 55s
+  50/292 apps | parsed 50 | unparsed 0 | errors 0 | 117s
+  75/292 apps | parsed 75 | unparsed 0 | errors 0 | 172s
+  100/292 apps | parsed 100 | unparsed 0 | errors 0 | 232s
+  125/292 apps | parsed 125 | unparsed 0 | errors 0 | 287s
+  150/292 apps | parsed 150 | unparsed 0 | errors 0 | 347s
+  175/292 apps | parsed 175 | unparsed 0 | errors 0 | 413s
+  200/292 apps | parsed 200 | unparsed 0 | errors 0 | 470s
+  225/292 apps | parsed 225 | unparsed 0 | errors 0 | 518s
+  250/292 apps | parsed 250 | unparsed 0 | errors 0 | 586s
+  275/292 apps | parsed 275 | unparsed 0 | errors 0 | 650s
+  292/292 apps | parsed 291 | unparsed 1 | errors 0 | 692s
+
+Wrote runs/ollama_qwen3_4b_shuffle_20260926T164731Z.jsonl
+Wrote runs/ollama_qwen3_4b_shuffle_20260926T164731Z.meta.json
+  25/100 apps | parsed 74 | unparsed 1 | errors 0 | 98s
+  50/100 apps | parsed 149 | unparsed 1 | errors 0 | 200s
+  75/100 apps | parsed 222 | unparsed 3 | errors 0 | 303s
+  100/100 apps | parsed 297 | unparsed 3 | errors 0 | 404s
+
+Wrote runs/ollama_qwen3_4b_rep_20260926T165903Z.jsonl
+Wrote runs/ollama_qwen3_4b_rep_20260926T165903Z.meta.json

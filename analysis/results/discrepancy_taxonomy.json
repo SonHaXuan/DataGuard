@@ -1,0 +1,199 @@
+{
+  "n_rationales_total": 4866,
+  "n_rationales_defect_verdicts": 2020,
+  "mean_chars": 79.4,
+  "patterns": {
+    "Third-party or SDK disclosure": {
+      "gloss": "The discrepancy concerns data reaching third parties, advertising networks or embedded SDKs.",
+      "regex": "third[\\s-]?part|sdk|advertis|ads?\\b|analytic|facebook|google|firebase|admob",
+      "n": 428,
+      "share_of_defect_rationales": 0.212,
+      "by_verdict": {
+        "Incorrect": 247,
+        "Incomplete": 181
+      },
+      "by_axis": {
+        "sharing": 345,
+        "collection": 83
+      },
+      "example_rationales": [
+        "The Data Safety states that no data is shared but the Privacy Policy says it will share several information for third-party",
+        "The Data Safety says no data shared but the Privacy Policy says thirds party can collect information for ads",
+        "The Data Safety says the app will collect Device or other IDs for advertising but the Privacy says it collect data for app functionality"
+      ]
+    },
+    "Exemption ambiguity": {
+      "gloss": "The policy claims the data is anonymised, kept on device, or otherwise falls under a Google disclosure exemption, so whether a declaration was required is a matter of interpretation.",
+      "regex": "exception|exempt|not collect(?:ed)? by us|on (?:your|the) device|retained on|anonym|aggregat|de-?identif",
+      "n": 88,
+      "share_of_defect_rationales": 0.044,
+      "by_verdict": {
+        "Incorrect": 46,
+        "Incomplete": 42
+      },
+      "by_axis": {
+        "collection": 65,
+        "sharing": 23
+      },
+      "example_rationales": [
+        "they do not specify the data collection process, we cannot detect whether the privacy policy's description is one of our exceptions or not.",
+        "They do not share any user's information with no exception.",
+        "privacy policy mention that they collect information by anonymous way but the data safety is not mention"
+      ]
+    },
+    "Missing data type": {
+      "gloss": "A specific data type or practice named in one artefact is absent from the other.",
+      "regex": "not mention|no mention|does ?n[o']t mention|missing|not list|not includ|not refer|not state|not specif|not declar",
+      "n": 834,
+      "share_of_defect_rationales": 0.413,
+      "by_verdict": {
+        "Incomplete": 542,
+        "Incorrect": 292
+      },
+      "by_axis": {
+        "sharing": 426,
+        "collection": 408
+      },
+      "example_rationales": [
+        "Data Safety does not mention anything",
+        "Data Safety does not mention anything",
+        "ThePrivacy Policy does not mentions enough data type and purpose in comparison with Data Safety"
+      ]
+    },
+    "Empty or absent declaration": {
+      "gloss": "One artefact supplies no relevant content at all.",
+      "regex": "(?:do|does|did)(?:es)? ?n[o']t provide|no info|nothing|empty|blank|not provided|no data safety|without any",
+      "n": 126,
+      "share_of_defect_rationales": 0.062,
+      "by_verdict": {
+        "Incomplete": 68,
+        "Incorrect": 58
+      },
+      "by_axis": {
+        "collection": 90,
+        "sharing": 36
+      },
+      "example_rationales": [
+        "The data safety does not provide contact sharing as mentioned in the privacy policy",
+        "They share the user's ID for ads and marketing purposes but they do not provide these info in the privacy policy document",
+        "They collected several user's info (e.g., the user's ID) for the ads and marketing purposes but they do not provide these info in the privacy policy document"
+      ]
+    },
+    "Purpose mismatch": {
+      "gloss": "Both artefacts mention the data, but disagree on what it is used for.",
+      "regex": "purpose|reason|why|marketing|personali[sz]|target",
+      "n": 495,
+      "share_of_defect_rationales": 0.245,
+      "by_verdict": {
+        "Incorrect": 264,
+        "Incomplete": 231
+      },
+      "by_axis": {
+        "collection": 253,
+        "sharing": 242
+      },
+      "example_rationales": [
+        "ThePrivacy Policy does not mentions enough data type and purpose in comparison with Data Safety",
+        "They share our info to third party for the purposes of the ad",
+        "The data safety does not mention the purpose of the data sharing."
+      ]
+    },
+    "Location data": {
+      "gloss": "The discrepancy specifically concerns location data.",
+      "regex": "\\blocation\\b|\\bgps\\b|geo",
+      "n": 61,
+      "share_of_defect_rationales": 0.03,
+      "by_verdict": {
+        "Incomplete": 42,
+        "Incorrect": 19
+      },
+      "by_axis": {
+        "sharing": 33,
+        "collection": 28
+      },
+      "example_rationales": [
+        "They share the two stories - i.e., data safety mentioned the location whereas, the privacy policy focus on the photo and storage.",
+        "several collected data do not mention in the data safety (e.g., GPS)",
+        "The Data Safety says No data is collected but the Privacy Policy says the app will collect name, contacts, location and even more"
+      ]
+    },
+    "Identifiers and device data": {
+      "gloss": "The discrepancy concerns persistent identifiers or device data.",
+      "regex": "\\bid\\b|identifier|device|ip address|advertising id|cookie",
+      "n": 119,
+      "share_of_defect_rationales": 0.059,
+      "by_verdict": {
+        "Incomplete": 69,
+        "Incorrect": 50
+      },
+      "by_axis": {
+        "collection": 68,
+        "sharing": 51
+      },
+      "example_rationales": [
+        "The Data Safety says the app will collect Device or other IDs for advertising but the Privacy says it collect data for app functionality",
+        "The Data Safety states that the app will colllect device or other IDs for ads but the Privacy Policy says it access data in the device and does not mention sent it off device",
+        "You collect the ID of the user and their devices for ads and marketing purposes reversing the privacy policy content"
+      ]
+    },
+    "Account or contact data": {
+      "gloss": "The discrepancy concerns directly identifying account or contact data.",
+      "regex": "email|name|phone|address|account|contact|personal info",
+      "n": 120,
+      "share_of_defect_rationales": 0.059,
+      "by_verdict": {
+        "Incomplete": 79,
+        "Incorrect": 41
+      },
+      "by_axis": {
+        "collection": 84,
+        "sharing": 36
+      },
+      "example_rationales": [
+        "You collect the ID of the user and their devices for ads and marketing purposes but the app mentions the NON-Personal info.",
+        "You collect the ID of the user and their devices for ads and marketing purposes but the app mentions the NON-Personal info.",
+        "The privacy policy does not mention the email address and the data safety does not mention the user-generated NFT."
+      ]
+    },
+    "Partial or less complete coverage": {
+      "gloss": "The content is present in both artefacts but at different levels of specificity.",
+      "regex": "not (?:as )?(?:complete|full|detail)|less|fewer|part(?:ial|ly)|some of|most of|not enough|not all|insufficient|general",
+      "n": 36,
+      "share_of_defect_rationales": 0.018,
+      "by_verdict": {
+        "Incorrect": 19,
+        "Incomplete": 17
+      },
+      "by_axis": {
+        "collection": 27,
+        "sharing": 9
+      },
+      "example_rationales": [
+        "THey do not detail the data type and purposes for the collection in the privacy policy",
+        "They do not specify the shared info in the privacy policy. The mentioned info is only the general content.",
+        "the app does not allow to collect data from users"
+      ]
+    },
+    "Security or retention practices": {
+      "gloss": "The discrepancy concerns security practices, retention or deletion.",
+      "regex": "encrypt|secur|delet|retention|retain|storage|stored",
+      "n": 17,
+      "share_of_defect_rationales": 0.008,
+      "by_verdict": {
+        "Incorrect": 11,
+        "Incomplete": 6
+      },
+      "by_axis": {
+        "collection": 11,
+        "sharing": 6
+      },
+      "example_rationales": [
+        "They share the two stories - i.e., data safety mentioned the location whereas, the privacy policy focus on the photo and storage.",
+        "Incorrect information about the safety, privacy, and security of the data that we have shared.",
+        "Data safety does not mention about information security policy"
+      ]
+    }
+  },
+  "share_matching_no_pattern": 0.245,
+  "n_matching_no_pattern": 494
+}

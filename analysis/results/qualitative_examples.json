@@ -1,0 +1,326 @@
+[
+  {
+    "app_id": 1044,
+    "app_package": "jp.co.yamahamotor.myyamahamotor",
+    "app_name": "My Yamaha Motor",
+    "category": "Lifestyle",
+    "download_tier": "High (1M-50M)",
+    "policy_host": "global.yamaha-motor.com",
+    "audit_axis": "collection",
+    "judgment_type": "completeness",
+    "verdict": "Incomplete",
+    "annotator_id": "A06",
+    "n_judgments": 3,
+    "unanimous": true,
+    "all_verdicts": [
+      "Incomplete",
+      "Incomplete",
+      "Incomplete"
+    ],
+    "evidence_text": "Data collected includes your individual data, location information, and access information when logging in through social media profiles like Facebook and Google.",
+    "rationale_text": "privacy policy is not mention most of type of data",
+    "data_safety_summary": {
+      "shared": [
+        "App activity",
+        "App info and performance",
+        "Device or other IDs",
+        "Personal info"
+      ],
+      "collected": [
+        "App activity",
+        "App info and performance",
+        "Device or other IDs",
+        "Personal info",
+        "Photos and videos"
+      ],
+      "security": [
+        "Data is encrypted in transit",
+        "You can request that data be deleted"
+      ],
+      "data_types": [
+        "Address",
+        "App interactions",
+        "Crash logs",
+        "Device or other IDs",
+        "Email address",
+        "Name",
+        "Other info",
+        "Phone number",
+        "Photos",
+        "User IDs"
+      ],
+      "declares_nothing_shared": false,
+      "declares_nothing_collected": false
+    },
+    "data_safety_raw": "{'data_shared': [{'category': 'Device or other IDs', 'sub_info': [{'data_type': 'Device or other IDs', 'purpose': 'Developer communications', 'optional': False}]}, {'category': 'Personal info', 'sub_info': [{'data_type': 'Name', 'purpose': 'Advertising or marketing', 'optional': False}, {'data_type': 'Email address', 'purpose': 'Analytics - Advertising or marketing', 'optional': False}, {'data_type': 'User IDs', 'purpose': 'Advertising or marketing', 'optional': False}, {'data_type': 'Address', 'purpose': 'Advertising or marketing', 'optional': False}, {'data_type': 'Phone number', 'purpose': 'Advertising or marketing', 'optional': False}, {'data_type': 'Other info', 'purpose': 'Advertising or marketing', 'optional': False}]}, {'category': 'App activity', 'sub_info': [{'data_type': 'App interactions', 'purpose': 'Analytics - Developer communications', 'optional': False}]}, {'category':…",
+    "policy_chars": 984,
+    "selection": "consensus"
+  },
+  {
+    "app_id": 2387,
+    "app_package": "stericson.busybox",
+    "app_name": "BusyBox",
+    "category": "Tools",
+    "download_tier": "High (1M-50M)",
+    "policy_host": "pages.flycricket.io",
+    "audit_axis": "collection",
+    "judgment_type": "correctness",
+    "verdict": "Incorrect",
+    "annotator_id": "A01",
+    "n_judgments": 2,
+    "unanimous": true,
+    "all_verdicts": [
+      "Incorrect",
+      "Incorrect"
+    ],
+    "evidence_text": "Various personal details may be required to enhance your experience in using our service. This requested information might be saved on your device but not collected by us. In case of an app error, data and information (via third-party products) called Log Data are collected from your phone. Pieces of Log Data might include device IP address, device name, operating system version, app configuration, time and date of Service usage, and more. Third-party code and libraries could use “cookies” to gather information and enhance their services. Although this Service does not explicitly use these cookies, refusal of our cookies may limit some of our Service's functionalities. The Service might…",
+    "rationale_text": "They do not provide any info on the data safety. the privacy policy description is not cover by the exception of the data safety",
+    "data_safety_summary": {
+      "shared": [],
+      "collected": [],
+      "security": [],
+      "data_types": [],
+      "declares_nothing_shared": true,
+      "declares_nothing_collected": true
+    },
+    "data_safety_raw": "{'data_shared': [], 'data_collected': []}",
+    "policy_chars": 2021,
+    "selection": "consensus"
+  },
+  {
+    "app_id": 2025,
+    "app_package": "com.chaveirim.lakewoods.chaveirim",
+    "app_name": "CJ Chaveirim",
+    "category": "Social",
+    "download_tier": "Low (<50K)",
+    "policy_host": "dispatch-app-backend.cjchaveirim.com",
+    "audit_axis": "sharing",
+    "judgment_type": "completeness",
+    "verdict": "Incomplete",
+    "annotator_id": "A01",
+    "n_judgments": 2,
+    "unanimous": true,
+    "all_verdicts": [
+      "Incomplete",
+      "Incomplete"
+    ],
+    "evidence_text": "Chaveirim reserves the right to use any personal information or other information about you, whether directly procured or in connection with the services. This may include location-based services and tracking usage of the program for marketing and sharing purposes.",
+    "rationale_text": "Although the data safety is not mention but the privacy policy content is the same issue of data sharing of extension",
+    "data_safety_summary": {
+      "shared": [],
+      "collected": [
+        "Personal info"
+      ],
+      "security": [
+        "Data can’t be deleted",
+        "Data isn’t encrypted"
+      ],
+      "data_types": [
+        "Email address",
+        "Name",
+        "Phone number"
+      ],
+      "declares_nothing_shared": true,
+      "declares_nothing_collected": false
+    },
+    "data_safety_raw": "{'data_shared': [], 'data_collected': [{'category': 'Personal info', 'sub_info': [{'data_type': 'Name', 'purpose': 'App functionality', 'optional': False}, {'data_type': 'Email address', 'purpose': 'App functionality', 'optional': False}, {'data_type': 'Phone number', 'purpose': 'App functionality - Account management', 'optional': False}]}], 'security_practices': [{'category': 'Data isn’t encrypted', 'sub_info': []}, {'category': 'Data can’t be deleted', 'sub_info': []}]}",
+    "policy_chars": 938,
+    "selection": "consensus"
+  },
+  {
+    "app_id": 226,
+    "app_package": "com.stylekorean.www",
+    "app_name": "StyleKorean",
+    "category": "Beauty",
+    "download_tier": "Mid (50K-1M)",
+    "policy_host": "stylekorean.com",
+    "audit_axis": "sharing",
+    "judgment_type": "correctness",
+    "verdict": "Incorrect",
+    "annotator_id": "A05",
+    "n_judgments": 2,
+    "unanimous": true,
+    "all_verdicts": [
+      "Incorrect",
+      "Incorrect"
+    ],
+    "evidence_text": "Stylekorean.com' ('Company') shares personal data like Name, Date of Birth, Log-in ID, Password, etc. to implement contracts for service provision, contents for fee calculations, identification for financial transactions, and prevent unauthorized use.",
+    "rationale_text": "The data safety does not mention any information about sharing data with third parties and wouldn't use it for any purposes",
+    "data_safety_summary": {
+      "shared": [],
+      "collected": [
+        "Financial info",
+        "Messages",
+        "Personal info",
+        "Photos and videos"
+      ],
+      "security": [
+        "Data is encrypted in transit",
+        "You can request that data be deleted"
+      ],
+      "data_types": [
+        "Address",
+        "Email address",
+        "Emails",
+        "Name",
+        "Phone number",
+        "Photos",
+        "Purchase history",
+        "User payment info"
+      ],
+      "declares_nothing_shared": true,
+      "declares_nothing_collected": false
+    },
+    "data_safety_raw": "{'data_shared': [], 'data_collected': [{'category': 'Messages', 'sub_info': [{'data_type': 'Emails', 'purpose': 'App functionality', 'optional': False}]}, {'category': 'Personal info', 'sub_info': [{'data_type': 'Name', 'purpose': 'App functionality', 'optional': False}, {'data_type': 'Email address', 'purpose': 'App functionality', 'optional': False}, {'data_type': 'Address', 'purpose': 'App functionality', 'optional': False}, {'data_type': 'Phone number', 'purpose': 'App functionality', 'optional': False}]}, {'category': 'Financial info', 'sub_info': [{'data_type': 'User payment info', 'purpose': 'App functionality', 'optional': False}, {'data_type': 'Purchase history', 'purpose': 'App functionality', 'optional': False}]}, {'category': 'Photos and videos', 'sub_info': [{'data_type': 'Photos', 'purpose': 'App functionality', 'optional': True}]}], 'security_practices': [{'category':…",
+    "policy_chars": 944,
+    "selection": "consensus"
+  },
+  {
+    "app_id": 2394,
+    "app_package": "be.mygod.vpnhotspot",
+    "app_name": "VPN Hotspot",
+    "category": "Tools",
+    "download_tier": "High (1M-50M)",
+    "policy_host": "github.com",
+    "audit_axis": "collection",
+    "judgment_type": "completeness",
+    "verdict": "Incomplete",
+    "annotator_id": "A01",
+    "n_judgments": 2,
+    "unanimous": false,
+    "all_verdicts": [
+      "Incomplete",
+      "Complete"
+    ],
+    "evidence_text": "VPN Hotspot app may collect some personally identifiable information from users for better experience. This data is retained and used as stated in the privacy policy. Log data, such as details like users' IP address, device name, operating system version, app configuration, and the time and date of app use, could be collected in case of an error in the app through third-party products. The use of \"cookies\" (small data files serving as anonymous unique identifiers) may also be leveraged via third-party code and libraries to accumulate information and boost their services. The app may contain links to other sites that are not operated by Mygod Studio, and clicking on a third-party link may…",
+    "rationale_text": "data safety does not detail the data collection behavior",
+    "data_safety_summary": {
+      "shared": [],
+      "collected": [
+        "App info and performance"
+      ],
+      "security": [
+        "Data can’t be deleted",
+        "Data is encrypted in transit"
+      ],
+      "data_types": [
+        "Crash logs"
+      ],
+      "declares_nothing_shared": true,
+      "declares_nothing_collected": false
+    },
+    "data_safety_raw": "{'data_shared': [], 'data_collected': [{'category': 'App info and performance', 'sub_info': [{'data_type': 'Crash logs', 'purpose': 'App functionality - Analytics', 'optional': False}]}], 'security_practices': [{'category': 'Data is encrypted in transit', 'sub_info': []}, {'category': 'Data can’t be deleted', 'sub_info': []}]}",
+    "policy_chars": 2110,
+    "selection": "contested"
+  },
+  {
+    "app_id": 2367,
+    "app_package": "com.anu.developers3k.rootchecker",
+    "app_name": "Advanced Root Checker",
+    "category": "Tools",
+    "download_tier": "Mid (50K-1M)",
+    "policy_host": "anurajr.com",
+    "audit_axis": "collection",
+    "judgment_type": "correctness",
+    "verdict": "Incorrect",
+    "annotator_id": "A01",
+    "n_judgments": 2,
+    "unanimous": false,
+    "all_verdicts": [
+      "Incorrect",
+      "Correct"
+    ],
+    "evidence_text": "The Advanced Root Checker app requires certain personally identifiable information for better user experience. This information will be retained on your device and not collected by us in any form. However, third parties services used by us may collect information used to identify you. In case of an error, we collect data and information (through third party products) on your device called Log Data, which may include information like your IP address, device name, operating system version, configuration of the app, time and date of your use of the Service, among other statistics. Third-party code and libraries may use cookies to collect information and improve their services. This Service…",
+    "rationale_text": "They do not provide any info on the data safety. the privacy policy description is not cover by the exception of the data safety",
+    "data_safety_summary": {
+      "shared": [],
+      "collected": [],
+      "security": [],
+      "data_types": [],
+      "declares_nothing_shared": true,
+      "declares_nothing_collected": true
+    },
+    "data_safety_raw": "{'data_shared': [], 'data_collected': []}",
+    "policy_chars": 1698,
+    "selection": "contested"
+  },
+  {
+    "app_id": 2370,
+    "app_package": "gamepadtesterlite.saturday.chimera.com.gamepadtesterlite",
+    "app_name": "GamePad Tester Lite",
+    "category": "Tools",
+    "download_tier": "Mid (50K-1M)",
+    "policy_host": "gamepadtester.com",
+    "audit_axis": "sharing",
+    "judgment_type": "completeness",
+    "verdict": "Incomplete",
+    "annotator_id": "A01",
+    "n_judgments": 2,
+    "unanimous": false,
+    "all_verdicts": [
+      "Incomplete",
+      "Complete"
+    ],
+    "evidence_text": "The Personal Information collected through the Service is used to provide and enhance the Service and will not be shared with anyone except as described in this Privacy Policy. Third-party services used by the app may also collect information used to identify you. Certain third-party companies and individuals, employed to facilitate the Service, provide the Service on our behalf, perform Service-related services, or assist in analyzing how the Service is used, may have access to this Personal Information in order to perform assigned tasks. They are, however, obligated not to disclose or use the information for any other purpose. Furthermore, if you click on a third-party link provided by…",
+    "rationale_text": "Privacy policy do not mention the ads purposes",
+    "data_safety_summary": {
+      "shared": [
+        "App activity",
+        "App info and performance",
+        "Device or other IDs",
+        "Location"
+      ],
+      "collected": [],
+      "security": [
+        "Data can’t be deleted",
+        "Data is encrypted in transit"
+      ],
+      "data_types": [
+        "App interactions",
+        "Approximate location",
+        "Crash logs",
+        "Device or other IDs",
+        "Diagnostics"
+      ],
+      "declares_nothing_shared": false,
+      "declares_nothing_collected": true
+    },
+    "data_safety_raw": "{'data_shared': [{'category': 'App activity', 'sub_info': [{'data_type': 'App interactions', 'purpose': 'Advertising or marketing', 'optional': False}]}, {'category': 'App info and performance', 'sub_info': [{'data_type': 'Crash logs', 'purpose': 'Advertising or marketing', 'optional': False}, {'data_type': 'Diagnostics', 'purpose': 'Advertising or marketing', 'optional': False}]}, {'category': 'Device or other IDs', 'sub_info': [{'data_type': 'Device or other IDs', 'purpose': 'Advertising or marketing', 'optional': False}]}, {'category': 'Location', 'sub_info': [{'data_type': 'Approximate location', 'purpose': 'Advertising or marketing', 'optional': False}]}], 'data_collected': [], 'security_practices': [{'category': 'Data is encrypted in transit', 'sub_info': []}, {'category': 'Data can’t be deleted', 'sub_info': []}]}",
+    "policy_chars": 1666,
+    "selection": "contested"
+  },
+  {
+    "app_id": 2400,
+    "app_package": "com.launcherios.iphonelauncher",
+    "app_name": "Launcher iOS 18",
+    "category": "Tools",
+    "download_tier": "Mid (50K-1M)",
+    "policy_host": "funnytoysvideo.blogspot.com",
+    "audit_axis": "sharing",
+    "judgment_type": "correctness",
+    "verdict": "Incorrect",
+    "annotator_id": "A01",
+    "n_judgments": 2,
+    "unanimous": false,
+    "all_verdicts": [
+      "Incorrect",
+      "Correct"
+    ],
+    "evidence_text": "Information Shared With Us: When users interact with our services, they inevitably share some information with us. However, we assure that we do not collect, store, or use any personal data unless contacted via email, in which case we use the email address solely for communication purposes. We may display advertisements via third-party companies, who may collect anonymous data about the user’s interests and location for relevant ad selection. However, no data is collected to allow third parties to identify you personally. Our applications also use Google Analytics APIs to analyze user behavior, but no personal data is stored or used.",
+    "rationale_text": "They do not provide any info on the data safety. the privacy policy description is not cover by the exception of the data safety",
+    "data_safety_summary": {
+      "shared": [],
+      "collected": [],
+      "security": [
+        "Data can’t be deleted",
+        "Data is encrypted in transit"
+      ],
+      "data_types": [],
+      "declares_nothing_shared": true,
+      "declares_nothing_collected": true
+    },
+    "data_safety_raw": "{'data_shared': [], 'data_collected': [], 'security_practices': [{'category': 'Data is encrypted in transit', 'sub_info': []}, {'category': 'Data can’t be deleted', 'sub_info': []}]}",
+    "policy_chars": 1277,
+    "selection": "contested"
+  }
+]

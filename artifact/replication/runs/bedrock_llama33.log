@@ -1,0 +1,45 @@
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 28s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 54s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 82s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 109s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 137s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 166s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 200s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 230s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 257s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 468s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 494s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 520s
+
+Wrote runs/bedrock_us.meta.llama3-3-70b-instruct-v1_0_base_20260926T163721Z.jsonl
+Wrote runs/bedrock_us.meta.llama3-3-70b-instruct-v1_0_base_20260926T163721Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 26s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 52s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 79s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 106s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 132s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 158s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 183s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 209s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 235s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 262s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 288s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 315s
+
+Wrote runs/bedrock_us.meta.llama3-3-70b-instruct-v1_0_null_20260926T164602Z.jsonl
+Wrote runs/bedrock_us.meta.llama3-3-70b-instruct-v1_0_null_20260926T164602Z.meta.json
+  25/300 apps | parsed 25 | unparsed 0 | errors 0 | 26s
+  50/300 apps | parsed 50 | unparsed 0 | errors 0 | 52s
+  75/300 apps | parsed 75 | unparsed 0 | errors 0 | 79s
+  100/300 apps | parsed 100 | unparsed 0 | errors 0 | 106s
+  125/300 apps | parsed 125 | unparsed 0 | errors 0 | 133s
+  150/300 apps | parsed 150 | unparsed 0 | errors 0 | 168s
+  175/300 apps | parsed 175 | unparsed 0 | errors 0 | 195s
+  200/300 apps | parsed 200 | unparsed 0 | errors 0 | 221s
+  225/300 apps | parsed 225 | unparsed 0 | errors 0 | 254s
+  250/300 apps | parsed 250 | unparsed 0 | errors 0 | 282s
+  275/300 apps | parsed 275 | unparsed 0 | errors 0 | 308s
+  300/300 apps | parsed 300 | unparsed 0 | errors 0 | 334s
+
+Wrote runs/bedrock_us.meta.llama3-3-70b-instruct-v1_0_inject_20260926T165117Z.jsonl
+Wrote runs/bedrock_us.meta.llama3-3-70b-instruct-v1_0_inject_20260926T165117Z.meta.json

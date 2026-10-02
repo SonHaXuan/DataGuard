@@ -1,0 +1,17 @@
+case,configuration,label_source,n_train,category,P,R,F1,A,TP,FP,FN,TN,errors,prevalence,baseline_A,A_minus_baseline,specificity,balanced_accuracy,MCC,kappa,flag_ratio,error_profile
+Case 01,"Zero-shot, GPT-3.5",n/a,0,Incorrect,0.942,0.825,0.879,0.793,113,7,24,6,31,0.913,0.913,-0.12,0.462,0.643,0.201,0.18,0.876,under-flagging dominant
+Case 01,"Zero-shot, GPT-3.5",n/a,0,Incomplete,0.828,0.595,0.692,0.573,72,15,49,14,64,0.807,0.807,-0.234,0.483,0.539,0.062,0.054,0.719,under-flagging dominant
+Case 02,"Fine-tuned, manual labels",human experts,150,Incorrect,0.951,0.993,0.971,0.947,136,7,1,6,8,0.913,0.913,0.034,0.462,0.727,0.606,0.574,1.044,over-flagging dominant
+Case 02,"Fine-tuned, manual labels",human experts,150,Incomplete,0.844,0.983,0.908,0.84,119,22,2,7,24,0.807,0.807,0.033,0.241,0.612,0.374,0.305,1.165,over-flagging dominant
+Case 03,"Fine-tuned, GPT-4 labels",GPT-4,150,Incorrect,0.981,0.759,0.856,0.767,104,2,33,11,35,0.913,0.913,-0.146,0.846,0.803,0.374,0.291,0.774,under-flagging dominant
+Case 03,"Fine-tuned, GPT-4 labels",GPT-4,150,Incomplete,0.849,0.975,0.908,0.84,118,21,3,8,24,0.807,0.807,0.033,0.276,0.626,0.38,0.329,1.149,over-flagging dominant
+Case 04,"Fine-tuned, GPT-4o labels",GPT-4o,150,Incorrect,0.919,1.0,0.958,0.92,136,12,0,2,12,0.913,0.913,0.007,0.143,0.571,0.362,0.232,1.088,over-flagging only
+Case 04,"Fine-tuned, GPT-4o labels",GPT-4o,150,Incomplete,0.807,1.0,0.883,0.807,121,29,0,0,29,0.807,0.807,0.0,0.0,0.5,,0.0,1.24,over-flagging only
+Case 05,"Fine-tuned, Gemini 1.5 labels",Gemini 1.5,150,Incorrect,0.938,1.0,0.98,0.94,136,9,0,5,9,0.913,0.913,0.027,0.357,0.679,0.579,0.502,1.066,over-flagging only
+Case 05,"Fine-tuned, Gemini 1.5 labels",Gemini 1.5,150,Incomplete,0.834,1.0,0.91,0.84,121,24,0,5,24,0.807,0.807,0.033,0.172,0.586,0.379,0.252,1.198,over-flagging only
+Case 06,"Fine-tuned, GPT-4 labels",GPT-4,450,Incorrect,0.971,0.73,0.833,0.733,100,3,37,10,40,0.913,0.913,-0.18,0.769,0.75,0.303,0.229,0.752,under-flagging dominant
+Case 06,"Fine-tuned, GPT-4 labels",GPT-4,450,Incomplete,0.877,0.942,0.908,0.847,114,16,7,13,23,0.807,0.807,0.04,0.448,0.695,0.454,0.443,1.074,over-flagging dominant
+Case 07,"Fine-tuned, GPT-4o labels",GPT-4o,450,Incorrect,0.932,1.0,0.965,0.933,138,10,0,2,10,0.913,0.913,0.02,0.167,0.583,0.394,0.269,1.072,over-flagging only
+Case 07,"Fine-tuned, GPT-4o labels",GPT-4o,450,Incomplete,0.857,0.992,0.92,0.86,120,20,1,9,21,0.807,0.807,0.053,0.31,0.651,0.478,0.402,1.157,over-flagging dominant
+Case 08,"Fine-tuned, Gemini 1.5 labels",Gemini 1.5,450,Incorrect,0.945,1.0,0.972,0.947,137,8,0,5,8,0.913,0.913,0.034,0.385,0.692,0.603,0.533,1.058,over-flagging only
+Case 08,"Fine-tuned, Gemini 1.5 labels",Gemini 1.5,450,Incomplete,0.851,0.992,0.916,0.853,120,21,1,8,22,0.807,0.807,0.046,0.276,0.634,0.445,0.363,1.165,over-flagging dominant

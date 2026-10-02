@@ -1,0 +1,134 @@
+{
+  "n_audited_apps": 1214,
+  "dimensions": {
+    "label_one_s": {
+      "axis": "Sharing",
+      "judgment_type": "Correctness",
+      "defect_label": "Incorrect",
+      "apps_judged": 1083,
+      "n_defect": 384,
+      "n_clean": 596,
+      "n_contested": 103,
+      "defect_rate": 0.355
+    },
+    "label_two_s": {
+      "axis": "Sharing",
+      "judgment_type": "Completeness",
+      "defect_label": "Incomplete",
+      "apps_judged": 1009,
+      "n_defect": 368,
+      "n_clean": 551,
+      "n_contested": 90,
+      "defect_rate": 0.365
+    },
+    "label_one_c": {
+      "axis": "Collection",
+      "judgment_type": "Correctness",
+      "defect_label": "Incorrect",
+      "apps_judged": 1176,
+      "n_defect": 426,
+      "n_clean": 634,
+      "n_contested": 116,
+      "defect_rate": 0.362
+    },
+    "label_two_c": {
+      "axis": "Collection",
+      "judgment_type": "Completeness",
+      "defect_label": "Incomplete",
+      "apps_judged": 1093,
+      "n_defect": 464,
+      "n_clean": 540,
+      "n_contested": 89,
+      "defect_rate": 0.425
+    }
+  },
+  "app_level_any_defect": 869,
+  "app_level_judged": 1214,
+  "app_level_any_defect_rate": 0.716,
+  "by_category": {
+    "Art & Design": {
+      "n": 200,
+      "any_defect_rate": 0.675
+    },
+    "Beauty": {
+      "n": 140,
+      "any_defect_rate": 0.85
+    },
+    "Books & Reference": {
+      "n": 145,
+      "any_defect_rate": 0.648
+    },
+    "Business": {
+      "n": 100,
+      "any_defect_rate": 0.85
+    },
+    "Communication": {
+      "n": 100,
+      "any_defect_rate": 0.85
+    },
+    "Lifestyle": {
+      "n": 101,
+      "any_defect_rate": 0.832
+    },
+    "Photography": {
+      "n": 27,
+      "any_defect_rate": 0.63
+    },
+    "Shopping": {
+      "n": 101,
+      "any_defect_rate": 0.366
+    },
+    "Social": {
+      "n": 100,
+      "any_defect_rate": 0.55
+    },
+    "Tools": {
+      "n": 200,
+      "any_defect_rate": 0.79
+    }
+  },
+  "by_download_tier": {
+    "Low (<50K)": {
+      "n": 157,
+      "any_defect_rate": 0.643
+    },
+    "Mid (50K-1M)": {
+      "n": 625,
+      "any_defect_rate": 0.73
+    },
+    "High (1M-50M)": {
+      "n": 402,
+      "any_defect_rate": 0.734
+    },
+    "Top (50M+)": {
+      "n": 30,
+      "any_defect_rate": 0.567
+    }
+  },
+  "prevalence_comparison": {
+    "original_test_incorrect": 0.913,
+    "original_test_incomplete": 0.807,
+    "dataguard_incorrect": 0.362,
+    "dataguard_incomplete": 0.425
+  },
+  "n_multi_judged": 289,
+  "n_contested_apps": 222,
+  "difficulty_predictors": {
+    "declares_nothing": {
+      "contested": 0.347,
+      "agreed": 0.254
+    },
+    "n_declared_types": {
+      "contested": 4.581,
+      "agreed": 6.806
+    },
+    "policy_chars": {
+      "contested": 1328.23,
+      "agreed": 1156.03
+    },
+    "ds_chars": {
+      "contested": 1099.694,
+      "agreed": 1708.418
+    }
+  }
+}

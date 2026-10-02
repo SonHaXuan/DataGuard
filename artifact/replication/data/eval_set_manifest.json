@@ -1,0 +1,54 @@
+{
+  "generator": "artifact/replication/build_eval_set.py",
+  "seed": 20260926,
+  "source_corpus": "/Users/v120674/Documents/RMIT/SonHa/Journal/NghiemProject/DATAGUARD/data-in-brief-submission/data_package/data",
+  "label_derivation": {
+    "incorrect": "Incorrect on sharing-correctness OR collection-correctness; app excluded if annotators split on either dimension",
+    "incomplete": "Incomplete on sharing-completeness OR collection-completeness; app excluded if annotators split on either dimension"
+  },
+  "pool_apps_with_both_targets": 663,
+  "eval_set_natural": {
+    "n": 300,
+    "incorrect_rate": 0.54,
+    "incomplete_rate": 0.5767,
+    "by_category": {
+      "Art & Design": 36,
+      "Photography": 26,
+      "Communication": 32,
+      "Business": 30,
+      "Lifestyle": 30,
+      "Shopping": 17,
+      "Tools": 32,
+      "Beauty": 33,
+      "Books & Reference": 33,
+      "Social": 31
+    }
+  },
+  "eval_set_balanced": {
+    "n": 200,
+    "incorrect_rate": 0.5,
+    "incomplete_rate": 0.585,
+    "by_category": {
+      "Business": 16,
+      "Tools": 30,
+      "Social": 15,
+      "Beauty": 15,
+      "Lifestyle": 14,
+      "Art & Design": 43,
+      "Books & Reference": 25,
+      "Communication": 29,
+      "Photography": 7,
+      "Shopping": 6
+    }
+  },
+  "original_paper_test_prior": {
+    "n": 150,
+    "incorrect_rate": 0.913,
+    "incomplete_rate": 0.807,
+    "note": "recovered in analysis/scripts/01_reconstruct_confusion.py"
+  },
+  "checksums_sha256": {
+    "eval_set_natural.csv": "7c2318005c2460680c4bf41b394faef76f5f99c1ba2a8160f4418096c9ca2907",
+    "eval_set_balanced.csv": "40a68bbdd50a9e30f32fb2c3c52e6c18e27128bba188e0742cc536e27d588360"
+  }
+}

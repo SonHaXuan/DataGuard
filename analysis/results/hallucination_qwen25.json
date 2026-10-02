@@ -1,0 +1,199 @@
+{
+  "label": "Qwen2.5-1.5B",
+  "format_compliance_base": {
+    "n_calls": 300,
+    "n_api_errors": 0,
+    "n_unparseable": 0,
+    "unparseable_rate": 0.0,
+    "n_any_format_deviation": 0,
+    "format_deviation_rate": 0.0,
+    "deviation_breakdown": {},
+    "n_extra_prose": 0
+  },
+  "format_compliance_null": {
+    "n_calls": 300,
+    "n_api_errors": 0,
+    "n_unparseable": 0,
+    "unparseable_rate": 0.0,
+    "n_any_format_deviation": 0,
+    "format_deviation_rate": 0.0,
+    "deviation_breakdown": {},
+    "n_extra_prose": 0
+  },
+  "unsupported_assertion": {
+    "n": 300,
+    "reference_answer": 0,
+    "n_violations": 250,
+    "violation_rate": 0.8333,
+    "by_category": {
+      "Art & Design": {
+        "violations": 31,
+        "n": 36,
+        "rate": 0.861
+      },
+      "Beauty": {
+        "violations": 29,
+        "n": 33,
+        "rate": 0.879
+      },
+      "Books & Reference": {
+        "violations": 30,
+        "n": 33,
+        "rate": 0.909
+      },
+      "Business": {
+        "violations": 24,
+        "n": 30,
+        "rate": 0.8
+      },
+      "Communication": {
+        "violations": 25,
+        "n": 32,
+        "rate": 0.781
+      },
+      "Lifestyle": {
+        "violations": 24,
+        "n": 30,
+        "rate": 0.8
+      },
+      "Photography": {
+        "violations": 22,
+        "n": 26,
+        "rate": 0.846
+      },
+      "Shopping": {
+        "violations": 13,
+        "n": 17,
+        "rate": 0.765
+      },
+      "Social": {
+        "violations": 24,
+        "n": 31,
+        "rate": 0.774
+      },
+      "Tools": {
+        "violations": 28,
+        "n": 32,
+        "rate": 0.875
+      }
+    },
+    "example_app_packages": [
+      "microbots.logomaker",
+      "com.perracolabs.cpd",
+      "com.telus.iprelay",
+      "com.tac.li6w",
+      "com.grace.microphone",
+      "com.whiteningskinn.bashratafteh",
+      "com.vvorld.sourcecodeviewer",
+      "com.vela.app.girl",
+      "com.tayasui.sketches",
+      "jettoast.menubutton"
+    ]
+  },
+  "format_compliance_inject": {
+    "n_calls": 300,
+    "n_api_errors": 0,
+    "n_unparseable": 0,
+    "unparseable_rate": 0.0,
+    "n_any_format_deviation": 0,
+    "format_deviation_rate": 0.0,
+    "deviation_breakdown": {},
+    "n_extra_prose": 0
+  },
+  "grounding_failure": {
+    "n": 300,
+    "reference_answer": 1,
+    "n_violations": 283,
+    "violation_rate": 0.9433,
+    "by_category": {
+      "Art & Design": {
+        "violations": 36,
+        "n": 36,
+        "rate": 1.0
+      },
+      "Beauty": {
+        "violations": 33,
+        "n": 33,
+        "rate": 1.0
+      },
+      "Books & Reference": {
+        "violations": 31,
+        "n": 33,
+        "rate": 0.939
+      },
+      "Business": {
+        "violations": 30,
+        "n": 30,
+        "rate": 1.0
+      },
+      "Communication": {
+        "violations": 29,
+        "n": 32,
+        "rate": 0.906
+      },
+      "Lifestyle": {
+        "violations": 26,
+        "n": 30,
+        "rate": 0.867
+      },
+      "Photography": {
+        "violations": 20,
+        "n": 26,
+        "rate": 0.769
+      },
+      "Shopping": {
+        "violations": 17,
+        "n": 17,
+        "rate": 1.0
+      },
+      "Social": {
+        "violations": 31,
+        "n": 31,
+        "rate": 1.0
+      },
+      "Tools": {
+        "violations": 30,
+        "n": 32,
+        "rate": 0.938
+      }
+    },
+    "example_app_packages": [
+      "microbots.logomaker",
+      "com.perracolabs.cpd",
+      "com.telus.iprelay",
+      "halifax.mobile.ip",
+      "com.robtheis.android.phrasebook.cc.bc",
+      "com.hp.salescentral",
+      "com.tac.li6w",
+      "com.BreakTime.finder",
+      "com.grace.microphone",
+      "com.whiteningskinn.bashratafteh"
+    ]
+  },
+  "order_instability": {
+    "n_compared_apps": 292,
+    "incorrect": {
+      "n": 292,
+      "n_flips": 20,
+      "flip_rate": 0.0685
+    },
+    "incomplete": {
+      "n": 292,
+      "n_flips": 40,
+      "flip_rate": 0.137
+    }
+  },
+  "self_consistency": {
+    "n_apps_with_repeats": 100,
+    "incorrect": {
+      "n_apps": 100,
+      "n_unstable": 46,
+      "instability_rate": 0.46
+    },
+    "incomplete": {
+      "n_apps": 100,
+      "n_unstable": 60,
+      "instability_rate": 0.6
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# Credentials. artifact/replication/.env holds a live Bedrock API key and must
+# never be committed; this entry is the last line of defence, not the only one.
+.env
+.env.*
+*.pem
+*.key
+
+# Build residue
+__pycache__/
+*.pyc
+.DS_Store
+
+# Partial runs are scratch output, not results.
+artifact/replication/runs/partial/

@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+title: "DataGuard: corpus and replication package for Android Data Safety disclosure analysis"
+message: "If you use this software or data, please cite it using these metadata."
+type: software
+license: MIT
+repository-code: "https://github.com/SonHaXuan/DataGuard"
+abstract: >-
+  Corpus, human audit annotations and replication code for analysing the gap
+  between Google Play Data Safety declarations and the privacy policies of the
+  same Android applications. Includes the benchmark harness, probe sets and the
+  analysis scripts that regenerate the published tables.
+keywords:
+  - privacy policy
+  - data safety label
+  - Android
+  - Google Play
+  - disclosure consistency
+  - large language models
+  - inter-annotator agreement
+authors:
+  - given-names: "Xuan Son"
+    family-names: "Ha"
+    email: "ha.son@rmit.edu.vn"
+    orcid: "https://orcid.org/0000-0002-5336-0566"
+    affiliation: "Digital Economy, The Business School, RMIT University Vietnam"
+  - given-names: "Thanh Nghiem"
+    family-names: "Pham"
+    email: "nghiemptce160353@fpt.edu.vn"
+    orcid: "https://orcid.org/0009-0005-4702-6050"
+    affiliation: "FPT University, Can Tho"
+  - given-names: "Truc Nhi"
+    family-names: "Le"
+    email: "nhiltce171144@fpt.edu.vn"
+    orcid: "https://orcid.org/0009-0005-2058-7237"
+    affiliation: "FPT University, Can Tho"
+  - given-names: "Minh Triet"
+    family-names: "Nguyen"
+    email: "trietnm3@fe.edu.vn"
+    orcid: "https://orcid.org/0009-0009-4235-584X"
+    affiliation: "FPT University, Can Tho"
+  - given-names: "Dang Xuan Duy"
+    family-names: "Pham"
+    email: "duy25msa23258@fsb.edu.vn"
+    orcid: "https://orcid.org/0009-0009-0116-1619"
+    affiliation: "FPT University, Ho Chi Minh City"
+  - given-names: "Quang Tung"
+    family-names: "Nguyen"
+    email: "NguyenQuangTung0902@gmail.com"
+    orcid: "https://orcid.org/0009-0003-5046-5535"
+    affiliation: "FPT University, Ho Chi Minh City"
+  - given-names: "Thanh Tuan"
+    family-names: "Le"
+    email: "tuan@nlstech.net"
+    orcid: "https://orcid.org/0009-0006-3491-6385"
+    affiliation: "NLS Tech Vietnam"
+  - given-names: "Nghia"
+    family-names: "Duong-Trung"
+    email: "nghia.duong-trung@iu.org"
+    orcid: "https://orcid.org/0000-0002-7402-4166"
+    affiliation: "IU International University of Applied Sciences, Berlin"
+references:
+  - type: data
+    title: "DataGuard"
+    doi: "10.17632/2vh8pmc27y.1"
+    year: 2026
+    publisher:
+      name: "Mendeley Data"
+    authors:
+      - given-names: "Xuan Son"
+        family-names: "Ha"
