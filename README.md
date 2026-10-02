@@ -1,5 +1,7 @@
 # DataGuard
 
+[![DOI](https://zenodo.org/badge/1401598451.svg)](https://doi.org/10.5281/zenodo.23102209)
+
 Data, annotations and replication code for our work on the gap between what
 Android apps **declare** in Google Play Data Safety and what their **privacy
 policies** actually say.
@@ -26,6 +28,13 @@ Two artifacts live here:
 Start with [`ARTIFACT.md`](ARTIFACT.md). It states plainly which results are
 fully reproducible, which are reproducible only up to provider non-determinism,
 and which artifacts from the original 2024 runs did not survive.
+
+## Citing this
+
+Cite the version you used. Release v1.0.0 is archived at Zenodo under the
+version DOI [10.5281/zenodo.23102210](https://doi.org/10.5281/zenodo.23102210);
+the badge above carries the concept DOI, which always resolves to the newest
+release.
 
 ## The corpus
 
